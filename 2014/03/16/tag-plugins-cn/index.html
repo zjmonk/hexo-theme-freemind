@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="/hexo-theme-freemind/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/hexo-theme-freemind/css/responsive.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/highlight.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/google-fonts.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -98,19 +99,20 @@
 <div class="row post">
 	<!-- cols -->
 	
+	<div id="top_meta"></div>
 	<div class="col-md-9">
 	
 
-	
+	<!-- content -->
+	<div class="mypage">		
+	  
 		 <div class="alert alert-success description">
 			<i class="fa fa-info-circle"></i> <p>Introduce tag plugins in freemind.</p>
 			
-		</div> <!-- alert -->
-			
+		 </div> <!-- alert -->
+	  		
 
-	<!-- content -->
-	<div class="mypage">		
-	    <p>Freemind 主题提供了丰富的 tag plugins，以充分利用 Bootstrap 的威力。</p>
+	  <p>Freemind 主题提供了丰富的 tag plugins，以充分利用 Bootstrap 的威力。</p>
 <p>在使用这些 tag plugins 之前，你需要先安装 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 。在你的 Hexo 博客目录，执行下列命令：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="operator"><span class="keyword">install</span> hexo-tag-bootstrap <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure>
 <p>然后就可以像使用其他 hexo tag plugins 一样使用这些 Bootstrap tag plugins 了。</p>
@@ -190,11 +192,11 @@
   
 </section>
 
-	
 	</div> <!-- col-md-9/col-md-12 -->
+		
 	
-	
-		<div class="col-md-3"> 
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
 
 	<!-- date -->
 	
@@ -243,9 +245,12 @@
 	
 </div><!-- col-md-3 -->
 
-	
+	</div>
+		
 
 </div><!-- row -->
+
+
 
 	</div>
   </div>
@@ -257,15 +262,6 @@
 </p> </footer>
 </div> <!-- container-narrow -->
   
-  <script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'ZP2ZSuHgipSZfRyU8uTR','2.0.0');
-  </script>
-
 
 
   
@@ -277,7 +273,7 @@
 <script src="/hexo-theme-freemind/js/gallery.js"></script>
 <script src="/hexo-theme-freemind/js/bootstrap.min.js"></script>
 <script src="/hexo-theme-freemind/js/main.js"></script>
-
+<script src="/hexo-theme-freemind/js/search.js"></script> 
 
 
 <link rel="stylesheet" href="/hexo-theme-freemind/fancybox/jquery.fancybox.css" media="screen" type="text/css">
@@ -287,6 +283,7 @@
   $('.fancybox').fancybox();
 })(jQuery);
 </script>
+
 
 
 </body>

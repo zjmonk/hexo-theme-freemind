@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="/hexo-theme-freemind/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/hexo-theme-freemind/css/responsive.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/highlight.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/google-fonts.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -98,19 +99,20 @@
 <div class="row post">
 	<!-- cols -->
 	
+	<div id="top_meta"></div>
 	<div class="col-md-9">
 	
 
-	
+	<!-- content -->
+	<div class="mypage">		
+	  
 		 <div class="alert alert-success description">
 			<i class="fa fa-info-circle"></i> <p>Frequently asked questions and my answers.</p>
 			
-		</div> <!-- alert -->
-			
+		 </div> <!-- alert -->
+	  		
 
-	<!-- content -->
-	<div class="mypage">		
-	    <span class="label label-danger">Q</span> <code>Freemind</code> 这名字有何含义？<br><br><span class="label label-success">A</span> <code>Freemind</code> 命名出自 <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid</a> 的博客。这个主题很大程度借鉴了他的博客的布局和样式。<br><br><span class="label label-danger">Q</span> 现在都有这么多 Hexo 的主题了，为啥又要写一个？<br><br><span class="label label-success">A</span> 实际上我这个主题在我使用 Hexo 前已经创建了。我在半年前将博客迁移到 Hexo ，因为我已经习惯了原来的主题，所以顺便把主题也移植了过来。<br><br><a id="more"></a>
+	  <span class="label label-danger">Q</span> <code>Freemind</code> 这名字有何含义？<br><br><span class="label label-success">A</span> <code>Freemind</code> 命名出自 <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid</a> 的博客。这个主题很大程度借鉴了他的博客的布局和样式。<br><br><span class="label label-danger">Q</span> 现在都有这么多 Hexo 的主题了，为啥又要写一个？<br><br><span class="label label-success">A</span> 实际上我这个主题在我使用 Hexo 前已经创建了。我在半年前将博客迁移到 Hexo ，因为我已经习惯了原来的主题，所以顺便把主题也移植了过来。<br><br><a id="more"></a>
 <p><span class="label label-danger">Q</span> 为啥还用 CSS 写样式，而不用更高端大气的 stylus ？</p>
 <p><span class="label label-success">A</span> 嗯，stylus 的确很酷。不过我不想再把以前的样式重写成 stylus 了。所以暂时先保留原来的 CSS。</p>
 <p><span class="label label-danger">Q</span> 你的博客不错用，如何贡献？</p>
@@ -126,9 +128,6 @@
 <p><span class="label label-success">A</span> 在<a href="https://github.com/wzpan/hexo-theme-freemind#front-matter" target="_blank" rel="external">文章头部</a>添加 <code>toc: true</code> 。</p>
 <p><span class="label label-danger">Q</span> 从哪里可以找到你的这几篇文档的 Markdown 源码？</p>
 <p><span class="label label-success">A</span> 在项目的 <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source</a> 分支。</p>
-<p><span class="label label-danger">Q</span> 为啥我在插入 bootstrap 插件后总是自动折行？</p>
-<p><span class="label label-success">A</span> 这个问题是你的 Markdown 设置引起的。解决办法是在你的 Hexo 的 _config.yml 文件中禁用 Markdown 的 <code>breaks</code> 选项：</p>
-<script src="https://gist.github.com/wzpan/9967986.js"></script>
 	  
 	</div>
 
@@ -161,11 +160,11 @@
   
 </section>
 
-	
 	</div> <!-- col-md-9/col-md-12 -->
+		
 	
-	
-		<div class="col-md-3"> 
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
 
 	<!-- date -->
 	
@@ -209,9 +208,12 @@
 	
 </div><!-- col-md-3 -->
 
-	
+	</div>
+		
 
 </div><!-- row -->
+
+
 
 	</div>
   </div>
@@ -223,15 +225,6 @@
 </p> </footer>
 </div> <!-- container-narrow -->
   
-  <script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'ZP2ZSuHgipSZfRyU8uTR','2.0.0');
-  </script>
-
 
 
   
@@ -243,7 +236,7 @@
 <script src="/hexo-theme-freemind/js/gallery.js"></script>
 <script src="/hexo-theme-freemind/js/bootstrap.min.js"></script>
 <script src="/hexo-theme-freemind/js/main.js"></script>
-
+<script src="/hexo-theme-freemind/js/search.js"></script> 
 
 
 <link rel="stylesheet" href="/hexo-theme-freemind/fancybox/jquery.fancybox.css" media="screen" type="text/css">
@@ -253,6 +246,7 @@
   $('.fancybox').fancybox();
 })(jQuery);
 </script>
+
 
 
 </body>

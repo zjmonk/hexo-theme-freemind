@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="/hexo-theme-freemind/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/hexo-theme-freemind/css/responsive.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/highlight.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/hexo-theme-freemind/css/google-fonts.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -94,6 +95,8 @@
   
   <div class="col-md-9">
 	
+
+	  <div id="top_search"></div>
 
 	  <div class="archive">
 		
@@ -193,12 +196,12 @@
 	<div id="sidebar">
 	
 			
-  <div class="form-group has-success has-feedback">
-    <form class="site-search-form">
-        <input type="text" id="st-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control" />
-    </form>
-  </div>  
-
+  <div id="site_search">
+   <div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control"/>
+   </div>  
+  <div id="local-search-result"></div>
+  </div>
 
 
 		
@@ -222,17 +225,17 @@
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
+			<li><a href="/hexo-theme-freemind/tags/Q-A/">Q&amp;A<span>2</span></a></li>
+		
+			<li><a href="/hexo-theme-freemind/tags/简体/">简体<span>1</span></a></li>
+		
 			<li><a href="/hexo-theme-freemind/tags/繁體/">繁體<span>1</span></a></li>
+		
+			<li><a href="/hexo-theme-freemind/tags/English/">English<span>1</span></a></li>
 		
 			<li><a href="/hexo-theme-freemind/tags/plugins/">plugins<span>2</span></a></li>
 		
 			<li><a href="/hexo-theme-freemind/tags/highlight/">highlight<span>1</span></a></li>
-		
-			<li><a href="/hexo-theme-freemind/tags/简体/">简体<span>1</span></a></li>
-		
-			<li><a href="/hexo-theme-freemind/tags/Q-A/">Q&amp;A<span>2</span></a></li>
-		
-			<li><a href="/hexo-theme-freemind/tags/English/">English<span>1</span></a></li>
 		
 		 
 		</ul>
@@ -301,15 +304,6 @@
 </p> </footer>
 </div> <!-- container-narrow -->
   
-  <script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'ZP2ZSuHgipSZfRyU8uTR','2.0.0');
-  </script>
-
 
 
   
@@ -321,7 +315,7 @@
 <script src="/hexo-theme-freemind/js/gallery.js"></script>
 <script src="/hexo-theme-freemind/js/bootstrap.min.js"></script>
 <script src="/hexo-theme-freemind/js/main.js"></script>
-
+<script src="/hexo-theme-freemind/js/search.js"></script> 
 
 
 <link rel="stylesheet" href="/hexo-theme-freemind/fancybox/jquery.fancybox.css" media="screen" type="text/css">
@@ -331,6 +325,7 @@
   $('.fancybox').fancybox();
 })(jQuery);
 </script>
+
 
 
 </body>
