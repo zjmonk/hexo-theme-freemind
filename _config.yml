@@ -26,7 +26,7 @@ links:
   - title: "My Facebook"
     url: http://www.facebook.com/zhangjianmonk
     intro: "My facebook account."
-    icon: "fa fa-facebook"
+    icon: "fa fa-facebook-square"
 
 widgets:
 - search
@@ -48,6 +48,8 @@ baidu_tongji:
   enable: true
   siteid: 3970e12bc9d7257ee2949a12580cd22e
 
+mathjax:
+  enable: true
+
 # search
 swiftype_key: eqa1m93kkcxbBJx1H9US
-
