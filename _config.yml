@@ -1,4 +1,4 @@
-slogan: "Yet another bootstrap theme."
+slogan: "Notes."
 
 menu:
   - title: Archives
@@ -19,18 +19,14 @@ menu:
     icon: "fa fa-user"
 
 links:
-  - title: Freemind
-    url: https://github.com/wzpan/freemind/
-    intro: "Freemind's Github repository."
-    icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/wzpan
+    url: http://www.github.com/zjmonk
     intro: "My Github account."
     icon: "fa fa-github"
-  - title: "My LinkedIn"
-    url: http://www.linkedin.com/in/hahack
-    intro: "My Linkin account."
-    icon: "fa fa-linkedin"
+  - title: "My Facebook"
+    url: http://www.facebook.com/zhangjianmonk
+    intro: "My facebook account."
+    icon: "fa fa-facebook"
 
 widgets:
 - search
@@ -42,15 +38,16 @@ widgets:
 rss: 
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname:
+duoshuo_shortname: pkumonkme
 
 # Analytics
 google_analytics:
   enable: false
   siteid:
 baidu_tongji:
-  enable: false
-  siteid:
+  enable: true
+  siteid: 3970e12bc9d7257ee2949a12580cd22e
 
 # search
-# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+swiftype_key: eqa1m93kkcxbBJx1H9US
+
