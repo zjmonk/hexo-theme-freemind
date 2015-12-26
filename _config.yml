@@ -1,0 +1,59 @@
+slogan: "Notes."
+
+menu:
+  - title: Archives
+    url: archives
+    intro: "All the articles."
+    icon: "fa fa-archive"
+  - title: Categories
+    url: categories
+    intro: "All the categories."
+    icon: "fa fa-folder"
+  - title: Tags
+    url: tags
+    intro: "All the tags."
+    icon: "fa fa-tags"
+  - title: About
+    url: about
+    intro: "About me."
+    icon: "fa fa-user"
+
+links:
+  - title: "My Github"
+    url: http://www.github.com/zjmonk
+    intro: "My Github account."
+    icon: "fa fa-github"
+  - title: "My Facebook"
+    url: http://www.facebook.com/zhangjianmonk
+    intro: "My facebook account."
+    icon: "fa fa-facebook-square"
+  - title: "My Steam"
+    url: http://steamcommunity.com/id/zjmonk/
+    intro: "My steam account."
+    icon: "fa fa-steam-square"
+
+widgets:
+- search
+- category
+- tagcloud
+- recent_posts  
+- links
+
+rss: 
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname: pkumonkme
+
+# Analytics
+google_analytics:
+  enable: true
+  siteid: UA-45186256-1
+baidu_tongji:
+  enable: true
+  siteid: 3970e12bc9d7257ee2949a12580cd22e
+
+mathjax:
+  enable: true
+
+# search
+swiftype_key: eqa1m93kkcxbBJx1H9US
