@@ -20,15 +20,15 @@ menu:
 
 links:
   - title: "My Github"
-    url: http://www.github.com/zjmonk
+    url: http://www.github.com/xxxxx
     intro: "My Github account."
     icon: "fa fa-github"
   - title: "My Facebook"
-    url: http://www.facebook.com/zhangjianmonk
+    url: http://www.facebook.com/xxx
     intro: "My facebook account."
     icon: "fa fa-facebook-square"
   - title: "My Steam"
-    url: http://steamcommunity.com/id/zjmonk/
+    url: http://steamcommunity.com/id/xxxx/
     intro: "My steam account."
     icon: "fa fa-steam-square"
 
@@ -42,18 +42,18 @@ widgets:
 rss: 
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname: pkumonkme
+duoshuo_shortname: 
 
 # Analytics
 google_analytics:
-  enable: true
-  siteid: UA-45186256-1
+  enable: false
+  siteid: 
 baidu_tongji:
-  enable: true
-  siteid: 3970e12bc9d7257ee2949a12580cd22e
+  enable: false
+  siteid: 
 
 mathjax:
   enable: true
 
 # search
-swiftype_key: eqa1m93kkcxbBJx1H9US
+swiftype_key: 
